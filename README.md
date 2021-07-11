@@ -28,6 +28,16 @@ Below are numbered steps to copying a cloned SD card .img to a new SD card:
 
 To bypass the detailed steps below, follow this. First, follow the section titled "Starting by creating a clone of your SD card." AND the section titled "Copying the cloned image to a new SD card."
 
+Upon having a cloned SD card, follow the steps below to use the core-image-minmal Yocto image and run a basic hello world program on it:
+1. Download the file from this link https://drive.google.com/file/d/1oGXfI1gWtRhK6f9vyqzeM9ht16cbyMT6/view?usp=sharing which contains a core-image-minimal Yocto image for the Unmatched with a basic hello world program
+
+2. Unzip the file 
+
+3. Plug in your new SD card and unmount all volumes
+
+4. Use the command ```sudo dd if=~/yocto-unmatched-minimal-image.img of=/dev/mmcblk0 bs=1M status=progress```
+
+5. 
 
 
 # Booting a Yocto Image to your newly formatted SD card
