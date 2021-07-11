@@ -1,8 +1,28 @@
 # Unmatched-Yocto-Image
 Making and loading Yocto images to the SiFive Unmatched using Ubuntu LTS 20.04
 
-# Starting by creating a clone of your SD card 
-To clone the SD card that comes with the board, use the dd function. To do this, start by unmounting any partitions on the SD card. In Ubuntu you can open the "Disks" application and see the name of the SD card as well as any mounted partitions. Once you are familiar with these, use the command ```sudo dd if=/dev/mmcblk0 of=~/sd-card-copy.img bs=1M status=progress```(And note the ```mmcblk0``` as this will need to be changed by you based on the name of your device.) Once this process is completed, you will have a file appear called ```sd-card-copy.img``` This is a clone of your SD card.
+# Starting by creating a clone of your SD card
+1. Go to this link https://drive.google.com/file/d/1cKBcpb9g0_FtCSoG6hXRJecwlgSh4Tqw/view?usp=sharing which contains a 32GB image of the default OS that comes with the board in a zipped file
+
+2. Upon opening and unzipping, you will get an image of the default OS that comes with the Unmatched board
+
+OR:
+
+Below are numbered steps to creating an SD card clone:
+1. Start by unmounting any partitions on the SD card. In Ubuntu you can open the "Disks" application and see the name of the SD card as well as any mounted partitions. 
+
+2. Once you are familiar with your device name and have unmounted all the partitions, use the command ```sudo dd if=/dev/mmcblk0 of=~/sd-card-copy.img bs=1M status=progress```(And note the ```mmcblk0``` as this will need to be changed by you based on the name of your device.) 
+
+3. Once this process is completed, you will have a file appear called ```sd-card-copy.img``` This is a clone of your SD card.
+
+# Copying the cloned image to a new SD card
+Below are numbered steps to copying a cloned SD card .img to a new SD card:
+1. Make sure your new SD card has all its partitions unmounted.
+
+2. Then use the command ```sudo dd if=~/sd-card-copy.img of=/dev/mmcblk0 bs=1M status=progress```
+
+3. You will find that the SD card now has the same formatting as the default SD card that came with the Unmatched
+
 
 # Prefabricated Version
 
