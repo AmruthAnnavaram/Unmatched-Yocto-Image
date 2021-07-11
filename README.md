@@ -26,9 +26,9 @@ Below are numbered steps to copying a cloned SD card .img to a new SD card:
 
 # Prefabricated Version
 
-To bypass the detailed steps, follow this. First, follow the section titled "Starting by creating a clone of your SD card."
+To bypass the detailed steps below, follow this. First, follow the section titled "Starting by creating a clone of your SD card." AND the section titled "Copying the cloned image to a new SD card."
 
-# 
+
 
 # Booting a Yocto Image to your newly formatted SD card
 Below are the numbered steps to create a Yocto image(this is taken from https://github.com/sifive/freedom-u-sdk, the SiFive FreedomUSDK repo)
