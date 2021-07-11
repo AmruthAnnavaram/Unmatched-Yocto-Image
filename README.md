@@ -37,7 +37,11 @@ Upon having a cloned SD card, follow the steps below to use the core-image-minma
 
 4. Use the command ```sudo dd if=~/yocto-unmatched-minimal-image.img of=/dev/mmcblk0 bs=1M status=progress```
 
-5. 
+5. Once completed, plug the SD card into the board and it should boot 
+
+6. Enter root as the username
+
+7. To run the hello world program, just input ```./a.out```
 
 
 # Booting a Yocto Image to your newly formatted SD card
