@@ -24,7 +24,7 @@ Below are numbered steps to copying a cloned SD card .img to a new SD card:
 3. You will find that the SD card now has the same formatting as the default SD card that came with the Unmatched
 
 
-# Prefabricated Version
+# Easy Version
 
 To bypass the detailed steps below, follow this. First, follow the section titled "Starting by creating a clone of your SD card." AND the section titled "Copying the cloned image to a new SD card."
 
