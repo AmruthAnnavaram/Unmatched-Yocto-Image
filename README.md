@@ -1,5 +1,5 @@
 # Unmatched-Yocto-Image
-Making and loading Yocto images to the SiFive Unmatched using Ubuntu LTS 20.04
+Making and loading Yocto images to the SiFive Unmatched using Ubuntu LTS 20.04. 
 
 # Starting by creating a clone of your SD card
 1. Go to this link https://drive.google.com/file/d/1cKBcpb9g0_FtCSoG6hXRJecwlgSh4Tqw/view?usp=sharing which contains a 32GB image of the default OS that comes with the board in a zipped file
